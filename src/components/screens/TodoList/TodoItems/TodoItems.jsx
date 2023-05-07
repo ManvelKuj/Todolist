@@ -17,7 +17,7 @@ export const TodoItems = (props) => {
           />
         ))
       ) : (
-        <p>Задач нет.</p>
+        <p>Задач нет</p>
       )}
     </ul>
   );
