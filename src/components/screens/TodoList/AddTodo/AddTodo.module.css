@@ -1,0 +1,33 @@
+.addtodo{
+    width: 100%;
+}
+.addForm{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+.input{
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+
+    border: 2px solid #E2D7B7;
+    border-radius: 5px;
+    outline: none;
+    color: #33718b;
+    text-align: center;
+}
+.add{
+    margin-left: 10px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    outline: none;
+    height: 100%;
+    background-color: #59A3C8;
+    color: #fff;
+    transition: all .3s ease;
+}
+.add:hover{
+    opacity: .7;
+}

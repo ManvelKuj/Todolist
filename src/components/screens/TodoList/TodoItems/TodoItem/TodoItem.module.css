@@ -1,0 +1,30 @@
+.item{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(72, 234, 255, 0.1);
+    border-bottom: 1px solid #d1d5d7;
+    border-top: 1px solid #d1d5d7;
+}
+.itemLeft{
+    display: flex;
+    align-items: center;
+}
+.itemRight{
+    display: flex;
+    align-items: flex-end;
+}
+.task{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.edit{
+    background-color: transparent;
+    margin-right: 10px;
+}
+.delete{
+    background-color: transparent;
+    height: 24px;
+}
